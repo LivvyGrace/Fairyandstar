@@ -19,7 +19,7 @@ function preload()
 }
 
 function setup() {
-	createCanvas(800, 750);
+	createCanvas(800, 800);
 
 	//write code to play fairyVoice sound
 
@@ -31,8 +31,8 @@ function setup() {
 	star.scale = 0.2;
 
 
-	fairy = createSprite(120,520);
-	fairy.addAnimation("fairyFlying",fairyImg);
+	fairy = createSprite(120,600);
+	fairy.addAnimation("fairyflying",fairyImg);
 	fairy.scale = 0.2;
 sound.play();
 
