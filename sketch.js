@@ -32,8 +32,8 @@ function setup() {
 
 
 	fairy = createSprite(650,30);
-	fairy.addAnimation(fairyImg);
-	//fairy.scale = 0.2;
+	fairy.addAnimation("fairyFlying",fairyImg);
+	fairy.scale = 0.2;
 sound.play();
 
 
